@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#201E28"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".itemActivity">
+
+    <TextView
+        android:id="@+id/item_list_title_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Название товара"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginBottom="8dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#383838"
+        android:layout_marginVertical="8dp" />
+
+    <TextView
+        android:id="@+id/item_list_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Описание товара"
+        android:textColor="#CCCCCC"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/button_auth"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Купить"
+        android:layout_gravity="center"
+        android:textColor="#5e4602"
+        android:backgroundTint="#e2a600"
+        android:layout_marginTop="30dp" />
+</LinearLayout>

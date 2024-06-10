@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#201E28"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etProductName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Название товара"
+        android:textColor="#fdfdfd"
+        android:textColorHint="#6a6a6a"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:background="@android:color/transparent"/>
+
+    <EditText
+        android:id="@+id/etProductPrice"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Цена товара"
+        android:inputType="numberDecimal"
+        android:textColor="#fdfdfd"
+        android:textColorHint="#6a6a6a"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:background="@android:color/transparent"/>
+
+    <Button
+        android:id="@+id/btnAddProduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Добавить товар"
+        android:textStyle="bold"
+        android:textColor="#5e4602"
+        android:backgroundTint="#e2a600"
+        android:layout_marginTop="30dp"/>
+
+    <ListView
+        android:id="@+id/productListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"/>
+</LinearLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#201E28"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:layout_marginBottom="16dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="4dp">
+
+        <ImageView
+            android:id="@+id/item_list_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/cat" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/item_list_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="8dp"
+        android:layout_marginTop="16dp"
+        android:text="Title"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#383838"
+        android:layout_marginVertical="8dp" />
+
+    <TextView
+        android:id="@+id/item_list_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="8dp"
+        android:text="Description"
+        android:textColor="#CCCCCC"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif" />
+
+    <TextView
+        android:id="@+id/item_list_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="8dp"
+        android:text="Price"
+        android:textColor="#FF4081"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-medium" />
+
+    <Button
+        android:id="@+id/item_list_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="10dp"
+        android:textStyle="bold"
+        android:text="Посмотреть"
+        android:textColor="#5e4602"
+        android:backgroundTint="#e2a600"
+        android:fontFamily="sans-serif-medium"
+        android:elevation="4dp" />
+
+</LinearLayout>
